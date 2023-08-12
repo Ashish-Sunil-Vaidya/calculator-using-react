@@ -37,7 +37,7 @@ jobs:
           node-version: 18
           cache: 'yarn'
       - name: Install Dependencies
-        run: yarn add
+        run: yarn
       - name: Build
         run: yarn build
       - name: Setup Pages
