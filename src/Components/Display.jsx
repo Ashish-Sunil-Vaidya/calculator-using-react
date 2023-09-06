@@ -33,11 +33,10 @@ export default function Display() {
       <div className="display-expression">{showEquation}</div>
       <input
         className="display-input"
-        contentEditable="true"
+        contentEditable={document.body.clientWidth < 768 ? true : false}
         onInput={handleInput}
         ref={ref}
         value={expression}
-        
       />
 
       <div className="display-utility">
