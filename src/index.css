@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-text: 0 0 0;
+    --color-text-mutex: 0 0 0;
+    --color-bg-primary: 255 255 255;
+    --color-bg-secondary: 233 233 233;
+    --color-error-bg-error: 255 0 0;
+    --color-error-text-error: 255 0 0;
+    --color-error-bg-warning: 255 255 0;
+    --color-error-text-warning: 255 255 0;
+  }
+}
+.theme-dark {
+  --color-text: 255 255 255;
+  --color-text-mutex: 255 255 255;
+  --color-bg-primary: 0 0 0;
+  --color-bg-secondary: 48 48 48;
+  --color-error-bg-error: 255 0 0;
+  --color-error-text-error: 255 0 0;
+  --color-error-bg-warning: 255 255 0;
+  --color-error-text-warning: 255 255 0;
+}
+
+.blue {
+  --color-button-primary: 0 160 255;
+  --color-button-secondary: 0 80 128;
+  --color-button-tertiary: 30 144 255;
+}
+
+.green {
+  --color-button-primary: 0 255 108;
+  --color-button-secondary: 0 128 54;
+  --color-button-tertiary: 0 255 0;
+}
+
+.red {
+  --color-button-primary: 255 0 0;
+  --color-button-secondary: 128 0 0;
+  --color-button-tertiary: 255 0 0;
+}
+
+.yellow {
+  --color-button-primary: 255 255 0;
+  --color-button-secondary: 128 128 0;
+  --color-button-tertiary: 255 255 0;
+}
+
+.a0 {
+  --transition-duration: 0s;
+}
+
+.a05 {
+  --transition-duration: 200ms;
+}
+
+.a1 {
+  --transition-duration: 400ms;
+}
+
+.a15 {
+  --transition-duration: 600ms;
+}
+
+.a2 {
+  --transition-duration: 800ms;
+}
+
+.a25 {
+  --transition-duration: 1s;
+}
+
+.a3 {
+  --transition-duration: 1.2s;
+}
